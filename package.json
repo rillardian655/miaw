@@ -1,0 +1,50 @@
+{
+  "name": "miawbot",
+  "version": "1.0.0",
+  "description": "🐾 Cute & Reliable GitHub & Deployment Webhook Notifier for Discord & Telegram",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "miaw": "./bin/miaw.js"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/*.test.js",
+    "test:ping": "node bin/miaw.js ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rillardian655/miaw.git"
+  },
+  "keywords": [
+    "github",
+    "webhook",
+    "discord",
+    "telegram",
+    "bot",
+    "notifier",
+    "deployment",
+    "cat",
+    "miaw",
+    "ci-cd",
+    "devops"
+  ],
+  "author": "xianly runa <rillardian655@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rillardian655/miaw/issues"
+  },
+  "homepage": "https://github.com/rillardian655/miaw#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
