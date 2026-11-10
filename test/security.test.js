@@ -28,3 +28,4 @@ describe('GitHub HMAC Signature Verification', () => {
     assert.equal(verifyGitHubSignature('', body, null), true);
   });
 });
+

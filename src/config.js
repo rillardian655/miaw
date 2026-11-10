@@ -9,3 +9,4 @@ export const config = {
   telegramChatId: process.env.TELEGRAM_CHAT_ID || '',
   miawPersonality: process.env.MIAW_PERSONALITY !== 'false'
 };
+

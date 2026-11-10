@@ -137,3 +137,4 @@ export function formatDiscordPayload(parsedData, enablePersonality = true) {
     embeds: [embed]
   };
 }
+

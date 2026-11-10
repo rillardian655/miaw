@@ -31,3 +31,4 @@ describe('Message Formatters (Discord & Telegram)', () => {
     assert.match(telegram.text, /a1b2c3d/);
   });
 });
+

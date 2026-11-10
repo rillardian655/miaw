@@ -12,3 +12,4 @@ EXPOSE 3456
 USER node
 
 CMD ["node", "src/server.js"]
+

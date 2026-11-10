@@ -56,3 +56,4 @@ describe('MiawBot Webhook Server Endpoints', () => {
     assert.equal(res.body.ok, true);
   });
 });
+

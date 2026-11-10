@@ -79,3 +79,4 @@ describe('GitHub Webhook Payload Parser', () => {
     assert.equal(parsed.conclusion, 'success');
   });
 });
+

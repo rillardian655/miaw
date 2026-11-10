@@ -29,3 +29,4 @@ export function verifyGitHubSignature(secret, rawBody, signatureHeader) {
 
   return crypto.timingSafeEqual(trustedBuffer, receivedBuffer);
 }
+
